@@ -1,0 +1,75 @@
+body {
+    background: url(http://www.premiumpixels.com/wp-content/uploads/2012/03/preview3.jpg);
+    color: #7b797e;
+    font-size: 18px;
+}
+
+.content {
+    background: white;
+    padding: 30px;
+    margin-top: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* FONTS and TEXT */
+h2,
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bolder;
+}
+
+.main-heading {
+    font-size: 30px;
+    border-bottom: 3px solid #cccccc;
+}
+
+/* NAVBAR */
+nav {
+    background: white;
+    border-bottom: 2px solid #cccccc;
+}
+
+nav a:hover {
+    color: #17a2b8 !important;
+}
+
+nav a {
+    text-decoration: none !important;
+    color: #7b797e;
+    font-size: 18px;
+}
+
+.nav-links-custom {
+    padding-top: 30px;
+}
+
+@media screen and (max-width: 767px){
+    .navbar-brand {
+        width: 100%;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .nav-links-custom {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+
+
+
+/* Images */
+.bio-image {
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 767px){
+    .bio-image {
+        width: 100%;
+        margin-right: 0;
+    }
+}
