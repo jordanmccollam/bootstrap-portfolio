@@ -8,10 +8,14 @@ body {
     background: white;
     padding: 30px;
     margin-top: 30px;
+    margin-bottom: 150px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+
+
+
 
 /* FONTS and TEXT */
 h2,
@@ -24,6 +28,9 @@ h1 {
     font-size: 30px;
     border-bottom: 3px solid #cccccc;
 }
+
+
+
 
 /* NAVBAR */
 nav {
@@ -60,6 +67,7 @@ nav a {
 
 
 
+
 /* Images */
 .bio-image {
     width: 200px;
@@ -72,4 +80,15 @@ nav a {
         width: 100%;
         margin-right: 0;
     }
+}
+
+
+
+/* FOOTER */
+.border-3 {
+    border-width: 8px !important;
+}
+
+footer {
+    font-size: 10px;
 }
