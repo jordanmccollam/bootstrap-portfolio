@@ -78,7 +78,11 @@ nav a {
 }
 
 @media screen and (max-width: 767px){
-    img {
+    .portfolio img {
+        width: 100%;
+        margin-right: 0;
+    }
+    .bio-image {
         width: 100%;
         margin-right: 0;
     }
