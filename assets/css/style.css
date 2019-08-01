@@ -78,7 +78,7 @@ nav a {
 }
 
 @media screen and (max-width: 767px){
-    .bio-image {
+    img {
         width: 100%;
         margin-right: 0;
     }
@@ -93,4 +93,29 @@ nav a {
 
 footer {
     font-size: 10px;
+}
+
+
+
+/* PORTFOLIO */
+.portfolio {
+    position: relative;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+}
+
+.portfolio-label {
+    max-width: 300px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+@media screen and (max-width: 767px) {
+    .portfolio-label {
+        max-width: 500px;
+    }
 }
