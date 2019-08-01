@@ -2,6 +2,8 @@ body {
     background: url(http://www.premiumpixels.com/wp-content/uploads/2012/03/preview3.jpg);
     color: #7b797e;
     font-size: 18px;
+    margin: 0;
+    padding: 0;
 }
 
 .content {
