@@ -108,18 +108,36 @@ footer {
 
 .text-block {
     position: absolute;
-    bottom: 10px;
-    left: 0px;
+    bottom: 20px;
+    left: 1px;
 }
 
-.portfolio-label {
-    max-width: 300px;
+.portfolio img {
+    width: 300px;
+    height: 250px;
+}
+
+.portfolio a {
+    text-decoration: none;
+    color: white;
+}
+
+.portfolio button {
+    width: 298px;
     font-size: 20px;
-    font-weight: normal;
 }
 
 @media screen and (max-width: 767px) {
-    .portfolio-label {
-        max-width: 500px;
+    .portfolio img {
+        width: 100%;
     }
+
+    .portfolio button {
+        width: 99.5%;
+        font-size: 20px;
+    }
+    
 }
+
+
+
